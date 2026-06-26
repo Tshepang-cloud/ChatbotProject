@@ -1,0 +1,333 @@
+# 🛡️ DrewBotSec – Cybersecurity Awareness Chatbot
+
+## Project Overview
+
+DrewBotSec is a desktop cybersecurity awareness chatbot developed using **C#** and **Windows Presentation Foundation (WPF)**. The application is designed to educate users about cybersecurity through an interactive chatbot while also providing additional features such as task management, quizzes, activity logging, and user memory.
+
+The chatbot can recognise cybersecurity topics, detect user sentiment, remember user preferences, provide cybersecurity advice, and guide users through safe online practices. The project demonstrates Object-Oriented Programming (OOP), event-driven programming, collections, GUI development, and basic Natural Language Processing (NLP) techniques.
+
+---
+
+## Features
+
+### 💬 Cybersecurity Chatbot
+
+The chatbot provides advice on cybersecurity topics including:
+
+- Password Security
+- Phishing
+- Privacy
+- Malware
+- Scams
+- VPNs
+- Two-Factor Authentication (2FA)
+- Ransomware
+- General Cybersecurity
+
+The chatbot recognises keywords entered by the user and responds with helpful cybersecurity tips. Multiple responses are available for each topic to keep conversations engaging.
+
+---
+
+### 😊 Sentiment Detection
+
+The chatbot analyses user messages for emotional keywords such as:
+
+- Happy
+- Curious
+- Worried
+- Frustrated
+- Sad
+
+Depending on the detected emotion, the chatbot responds with an appropriate opening message before giving cybersecurity advice.
+
+---
+
+### 🧠 User Memory
+
+The chatbot remembers information about the user during the conversation, including:
+
+- User name
+- Favourite cybersecurity topic
+- Previous discussion topic
+- Stored preferences
+
+Users can ask:
+
+```
+What do you know about me?
+```
+
+to view remembered information.
+
+---
+
+### 📋 Cybersecurity Task Manager
+
+Users can create and manage cybersecurity-related reminders.
+
+Features include:
+
+- Add new tasks
+- Set reminder dates
+- Set due dates
+- Mark tasks as completed
+- Delete completed tasks
+
+Examples of tasks include:
+
+- Enable Two-Factor Authentication
+- Change passwords
+- Update antivirus software
+- Backup important files
+
+---
+
+### 📝 Cybersecurity Quiz
+
+The application includes an interactive cybersecurity quiz consisting of multiple-choice and True/False questions.
+
+The quiz provides:
+
+- Immediate feedback
+- Correct answer explanations
+- Score tracking
+- Percentage calculation
+- Performance feedback at the end
+
+---
+
+### 📖 Activity Log
+
+Every important user action is recorded in an activity log, including:
+
+- Chat messages
+- Task creation
+- Task completion
+- Quiz participation
+
+Each activity includes a timestamp.
+
+---
+
+### 🎨 Modern User Interface
+
+The application uses a modern WPF interface featuring:
+
+- Chat bubbles
+- User and chatbot avatars
+- Animated message transitions
+- Sidebar displaying favourite topic
+- Mood indicator
+- Thinking animation
+- Voice greeting
+
+---
+
+## Technologies Used
+
+- C#
+- .NET Framework
+- Windows Presentation Foundation (WPF)
+- Object-Oriented Programming (OOP)
+- Dictionaries
+- Lists
+- LINQ
+- Event Handling
+- Async Programming
+- SoundPlayer API
+
+---
+
+## Project Structure
+
+The application consists of several main components:
+
+### User Class
+
+Stores user information such as:
+
+- Name
+- Favourite Topic
+- Last Topic
+- Current Sentiment
+- Personal Memory
+
+---
+
+### Chatbot Class
+
+Acts as the brain of the application.
+
+Responsibilities include:
+
+- Processing user messages
+- Keyword recognition
+- Sentiment detection
+- Conversation flow
+- User memory
+- Random response generation
+- Error handling
+
+---
+
+### CyberTask Class
+
+Represents cybersecurity reminder tasks.
+
+Each task stores:
+
+- Task title
+- Reminder
+- Due date
+- Completion status
+
+---
+
+### QuizQuestion Class
+
+Stores quiz questions, answers, explanations, and correct responses.
+
+---
+
+### Activity Log
+
+Records user actions together with timestamps.
+
+---
+
+### MainWindow
+
+Controls the graphical interface.
+
+Responsibilities include:
+
+- Starting conversations
+- Sending messages
+- Displaying chatbot responses
+- Managing quizzes
+- Managing tasks
+- Updating the sidebar
+- Recording activity logs
+
+---
+
+## How the Application Works
+
+1. The user launches the application.
+2. The user enters their name.
+3. A chat session begins.
+4. The chatbot processes every message entered.
+5. The chatbot detects cybersecurity keywords.
+6. User sentiment is analysed.
+7. Appropriate cybersecurity advice is displayed.
+8. Users can create reminder tasks.
+9. Users can complete the cybersecurity quiz.
+10. The activity log records all important actions.
+
+---
+
+## Example Commands
+
+Users can ask about topics such as:
+
+- password
+- phishing
+- malware
+- scam
+- privacy
+- vpn
+- ransomware
+- cybersecurity
+- 2fa
+- two factor
+
+Other useful commands include:
+
+- help
+- tell me more
+- another tip
+- what do you know about me
+- I'm interested in phishing
+
+---
+
+## Object-Oriented Programming Concepts
+
+This project demonstrates the following OOP concepts:
+
+- Classes
+- Objects
+- Encapsulation
+- Interfaces
+- Methods
+- Constructors
+- Properties
+- Collections
+- Event-Driven Programming
+
+---
+
+## Requirements
+
+To run the application you need:
+
+- Visual Studio 2022 or later
+- .NET Desktop Development workload
+- Windows Operating System
+
+---
+
+## Running the Application
+
+1. Open the project in Visual Studio.
+2. Build the solution.
+3. Run the application.
+4. Enter your name.
+5. Begin chatting with DrewBotSec.
+6. Explore the chatbot, quizzes, task manager, and activity log.
+
+---
+
+## Future Improvements
+
+Possible future enhancements include:
+
+- AI-powered Natural Language Processing
+- Speech Recognition
+- Text-to-Speech
+- User Authentication
+- Database integration
+- Cloud storage
+- Machine Learning
+- User accounts
+- Dark and Light themes
+
+---
+
+## Learning Outcomes
+
+This project demonstrates practical knowledge of:
+
+- C# Programming
+- WPF Application Development
+- GUI Design
+- Event Handling
+- Collections (Lists and Dictionaries)
+- Asynchronous Programming
+- Object-Oriented Programming
+- Basic Natural Language Processing
+- Software Design Principles
+
+---
+
+## Author
+
+**Drew**
+
+Software Development Student
+
+---
+
+## License
+
+This project was developed for educational purposes as part of a Software Development assignment. It may be modified and extended for learning and academic use.
